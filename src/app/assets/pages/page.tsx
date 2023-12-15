@@ -101,7 +101,7 @@ export function HomePage() {
                             <p className='w-[347px] mt-4 text-[16px]'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                             </p>
-                            <Image src={graphic} alt='' className='rounded-[32px] absolute bottom-0 right-[2px]' />
+                            <Image src={graphic} alt='' className='rounded-r-[32px] absolute bottom-0 right-[2px]' />
                         </article>
                     </section>
                 </div>
