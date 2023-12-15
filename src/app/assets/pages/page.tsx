@@ -13,6 +13,7 @@ import dividendoImage from '@/app/assets/images/Dividendos.svg'
 import essencialImage from '@/app/assets/images/asideImages/essencial.svg'
 import fillsImage from '@/app/assets/images/asideImages/FIIs.svg'
 import smallCapsImage from '@/app/assets/images/asideImages/smallCaps.svg'
+import quote from '@/app/assets/images/quote.svg'
 
 const walletImages = [
     { image: selecaoImage, name: 'Carteira Seleção' },
@@ -57,9 +58,9 @@ export function HomePage() {
                     </div>
                 </article>
                 <article className='w-[325px] h-[371px] flex flex-col flex-shrink-0 mr-20'>
-                    <div className=' mt-[40px] flex items-center justify-start border border-gray-600 w-[270px] h-[62px] rounded-[16px] py-2 pr-[57px] pl-[13px] gap-[19px] bg-blue-500 z-10 relative' >
-                        <div className='w-20 h-[100px] z-0 relative right-[-50px] rounded-full bg-white'></div>
-                        <div className='w-[51px] h-[46px] flex items-center justify-center border border-gray-600 rounded-lg'>
+                    <div className=' mt-[40px] flex items-center justify-start border border-gray-600 w-[270px] h-[62px] rounded-[16px] py-2 pr-[57px] pl-[13px] gap-[19px] relative z-50' >
+                        <div className='w-20 h-[100px] relative right-[-50px] rounded-full bg-white'></div>
+                        <div className='relative w-[51px] h-[46px] flex items-center justify-center border border-gray-600 rounded-lg z-10'>
                             <Image src={fatorImage} height={21} width={21} alt='' />
                         </div>
                         <p>Carteira Fator</p>
@@ -104,6 +105,45 @@ export function HomePage() {
                             <Image src={graphic} alt='' className='rounded-r-[32px] absolute bottom-0 right-[2px]' />
                         </article>
                     </section>
+                </div>
+            </section>
+            {/** Essa será a sessão de avaliações */}
+            <section className='flex justify-between items-center mt-[202px] ml-36 mr-[120px] relative'>
+                <div>
+                    <h1 className='w-[420px] text-[38px] font-bold leading-[45.6px]'>
+                        Didática de verdade
+                    </h1>
+                    <p className='text-[18px] font-bold leading-[21.6px] mt-2'>
+                        Garantindo seu aprendizado
+                    </p>
+                    <article className='mt-20 bg-custom-gray-2 flex flex-col justify-center items-center h-[328px] w-[368px] rounded-[24px] border border-gray-900 relative z-50'>
+                        <div className='flex justify-start w-full'>
+                            <Image className='ml-[24px]' src={quote} alt='' width={21} height={23} />
+                        </div>
+                        <blockquote className='w-[276px] ml-[14px] text-[18px] font-medium leading-[21.6px] text-gray-400'>
+                            Conteúdos preparados para trazer mais segurança, independente do seu nível. Conteúdos preparados para trazer mais segurança, independente do seu nível.Conteúdos preparados para trazer mais segurança, independente do seu nível.
+                        </blockquote>
+                        <div className='flex w-full justify-start mt-[22px]'>
+                            <cite className='ml-[50px] text-gray-200 italic font-medium'>Assinante VAROS</cite>
+                        </div>
+                    </article>
+
+                    {/** Aqui vai ser outra citação, só para ver como fica */}
+
+                    <article className='mt-20 bg-custom-gray-2 flex flex-col justify-center items-center h-[328px] w-[368px] rounded-[24px] border border-gray-900 absolute top-36 left-36 opacity-[0.3]'>
+                        <div className='flex justify-start w-full'>
+                            <Image className='ml-[24px]' src={quote} alt='' width={21} height={23} />
+                        </div>
+                        <blockquote className='w-[276px] ml-[14px] text-[18px] font-medium leading-[21.6px] text-gray-400'>
+                            Conteúdos preparados para trazer mais segurança, independente do seu nível. Conteúdos preparados para trazer mais segurança, independente do seu nível.Conteúdos preparados para trazer mais segurança, independente do seu nível.
+                        </blockquote>
+                        <div className='flex w-full justify-start mt-[22px]'>
+                            <cite className='ml-[50px] text-gray-200 italic font-medium'>Assinante VAROS</cite>
+                        </div>
+                    </article>
+                </div>
+                <div>
+                    Ota Div
                 </div>
             </section>
         </main >

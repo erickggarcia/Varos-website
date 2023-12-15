@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         'custom-green': 'rgba(25, 200, 25, 0.40)',
         'custom-green-2': '#00F700',
+        'custom-green-3': '#19C819',
         'turquoise': '#00F0C9',
         'custom-gray': '#222729',
         'custom-gray-2': '#131516',
