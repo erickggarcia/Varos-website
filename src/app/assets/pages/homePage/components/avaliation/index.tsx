@@ -28,7 +28,7 @@ export function Avaliation() {
 
                 {/** Aqui vai ser outra citação, só para ver como fica */}
 
-                <article className='mt-20 bg-custom-gray-2 flex flex-col justify-center items-center h-[328px] w-[368px] rounded-[24px] border border-gray-900 absolute top-36 left-36 opacity-[0.3]'>
+                <article className='mt-20 bg-custom-gray-2 flex flex-col justify-center items-center h-[328px] w-[368px] rounded-[24px] border border-gray-900 absolute top-48 left-36 opacity-[0.3]'>
                     <div className='flex justify-start w-full'>
                         <Image className='ml-[24px]' src={quote} alt='' width={21} height={23} />
                     </div>
@@ -41,12 +41,12 @@ export function Avaliation() {
                 </article>
             </div>
 
-            <div className='flex items-start flex-col w-[564px] h-[573px] gap-[73px]'>
-                <Image className='relative z-20 left-20 top-[85px]' src={founder1} alt='foto do fundador' height={300} width={300} />
-                <Image className='absolute z-50 top-10 right-1' src={founder2} alt='foto do fundador' height={240} width={240} />
-                <Image className='absolute top-8 right-36' src={founder3} alt='foto do fundador' height={160} width={160} />
+            <div className='flex items-start justify-start flex-col w-[564px] h-[573px] gap-[73px]'>
+                <Image className='relative z-20 top-[85px]' src={founder1} alt='foto do fundador' height={350} width={350} />
+                <Image className='absolute z-50 top-10 right-[43px]' src={founder2} alt='foto do fundador' height={280} width={280} />
+                <Image className='absolute top-8 right-52' src={founder3} alt='foto do fundador' height={190} width={190} />
 
-                <div className='w-full flex justify-end gap-x-2 mt-[70px]'>
+                <div className='w-full flex justify-start gap-x-2 mt-[70px]'>
                     <div className=' flex items-center justify-end bg-gradient-to-r from-gray-800 h-[110px] w-[466px] rounded-3xl'>
                         <div className='flex h-[108px] justify-center items-center w-[465px] bg-black rounded-3xl gap-x-8 text-center'>
                             <div className='w-[106px] h-[65px]'>

@@ -38,7 +38,7 @@ export function BuyNow() {
                     </div>
                 </div>
             </article>
-            <article className='w-[325px] h-[371px] flex flex-col flex-shrink-0 mr-20'>
+            <article className='w-[325px] h-[371px] flex flex-col flex-shrink-0 mr-32'>
                 <div className=' mt-[40px] flex items-center justify-start border border-gray-600 w-[270px] h-[62px] rounded-[16px] py-2 pr-[57px] pl-[13px] gap-[19px] relative z-50' >
                     <div className='w-20 h-[100px] relative right-[-50px] rounded-full bg-white'></div>
                     <div className='relative w-[51px] h-[46px] flex items-center justify-center border border-gray-600 rounded-lg z-10'>
