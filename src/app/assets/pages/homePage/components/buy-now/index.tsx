@@ -39,13 +39,13 @@ export function BuyNow() {
                 </div>
             </article>
             <article className='w-[325px] h-[371px] flex flex-col flex-shrink-0 mr-32'>
-                <div className=' mt-[40px] flex items-center justify-start border border-gray-600 w-[270px] h-[62px] rounded-[16px] py-2 pr-[57px] pl-[13px] gap-[19px] relative z-50' >
-                    <div className='w-20 h-[100px] relative right-[-50px] rounded-full bg-white'></div>
-                    <div className='relative w-[51px] h-[46px] flex items-center justify-center border border-gray-600 rounded-lg z-10'>
+                <div className=' mt-[40px] flex items-center justify-start border border-gray-600 w-[270px] h-[62px] rounded-[16px] py-2 pr-[57px] pl-[13px] gap-[19px] shadow-box-light' >
+                    <div className=' w-[51px] h-[46px] flex items-center justify-center border border-gray-600 rounded-lg '>
                         <Image src={fatorImage} height={21} width={21} alt='' />
                     </div>
                     <p>Carteira Fator</p>
                 </div>
+
                 <div className=' mt-[40px] pl-[13px] flex items-center justify-start border border-gray-600 w-[291px] h-[62px] rounded-[16px] gap-[19px] self-end'>
                     <div className='w-[51px] h-[46px] flex items-center justify-center border border-gray-600 rounded-lg'>
                         <Image src={dividendoImage} height={20} width={24} alt='' />

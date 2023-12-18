@@ -23,7 +23,7 @@ const config: Config = {
         'custom-gray-3': 'rgba(34, 39, 41, 0.50)',
       },
       boxShadow: {
-        '5xl': '0 0 10px rgba(255, 255, 255, 0.8)',
+        'box-light': '0px 0px 15px -5px rgba(173, 216, 230, 1)'
       }
     },
   },
